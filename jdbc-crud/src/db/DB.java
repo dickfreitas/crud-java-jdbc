@@ -28,7 +28,6 @@ public class DB {
         try(FileInputStream fileInputStream = new FileInputStream("db.properties")) {
             Properties properties = new Properties();
             properties.load(fileInputStream);
-
             return properties;
         }catch (IOException e ){
             throw new DbException(e.getMessage());
