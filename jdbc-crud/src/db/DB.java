@@ -20,6 +20,7 @@ public class DB {
             }
 
         }
+        return conn;
     }
 
     //CARREGA AS INFORMAÇOES DE CONEXAO DO BANCO DE DADOS
